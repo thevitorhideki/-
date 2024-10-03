@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-screen flex justify-center items-center h-screen flex-col gap-4">
+    <div className="flex px-16 flex-col gap-4">
       <h1 className="font-bold text-4xl">у спогадах Феліпе Баковського</h1>
       <Carousel className="mx-auto max-w-md">
         <CarouselContent>
