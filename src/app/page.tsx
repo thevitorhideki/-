@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex px-16 flex-col gap-4">
+    <div className="flex px-16f flex-col gap-4">
       <h1 className="font-bold text-4xl">у спогадах Феліпе Баковського</h1>
       <Carousel className="mx-auto max-w-md">
         <CarouselContent>
@@ -20,6 +20,9 @@ export default function Home() {
           </CarouselItem>
           <CarouselItem>
             <Image src={"/o.jpeg"} alt="O" width={500} height={500} />
+          </CarouselItem>
+          <CarouselItem>
+            <Image src={"/d.jpeg"} alt="D" width={500} height={500} />
           </CarouselItem>
           <CarouselItem>
             <Image src={"/edu.png"} alt="Edu" width={500} height={500} />
